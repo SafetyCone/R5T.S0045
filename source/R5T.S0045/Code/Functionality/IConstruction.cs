@@ -44,7 +44,7 @@ namespace R5T.S0045
 
             var document = Instances.XmlOperator.CreateNewDocument();
 
-            var arrayOfTreeViewNode = Instances.XmlOperator.CreateElement(Instances.XmlElementNames.ArrayOfTreeViewNode);
+            var arrayOfTreeViewNode = Instances.XElementOperator.CreateElement(Instances.XmlElementNames.ArrayOfTreeViewNode);
 
             document.Add(arrayOfTreeViewNode);
 
@@ -72,7 +72,7 @@ namespace R5T.S0045
         {
 			var document = Instances.XmlOperator.CreateNewDocument();
 
-			var arrayOfTreeViewNode = Instances.XmlOperator.CreateElement(Instances.XmlElementNames.ArrayOfTreeViewNode);
+			var arrayOfTreeViewNode = Instances.XElementOperator.CreateElement(Instances.XmlElementNames.ArrayOfTreeViewNode);
 
 			document.Add(arrayOfTreeViewNode);
 
